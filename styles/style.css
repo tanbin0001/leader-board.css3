@@ -94,8 +94,10 @@ hr {
   grid-column-gap: 24px;
 }
 
-.course .course-banner img {
+.course {
   width: 224px;
+}
+.course .course-banner img {
   height: 104px;
 }
 .course-author {
@@ -109,13 +111,13 @@ hr {
 
 .course-duration {
   color: #ff4a60;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 14.6913px;
-  width: 80px;
   height: 27.38px;
   background: #ffe4e8;
   border-radius: 14.6913px;
-  text-align: center;
+  text-align: left;
+  padding: 5px 10px;
 }
 .fa-star {
   font-size: 12px;
